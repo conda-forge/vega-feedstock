@@ -10,7 +10,7 @@ source:
   md5: 59c915a18179ec8de48798a7713e7ee5
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
