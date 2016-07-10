@@ -1,4 +1,4 @@
-{% set version = "0.3.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: vega
@@ -7,10 +7,10 @@ package:
 source:
   fn: vega-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/v/vega/vega-{{ version }}.tar.gz
-  md5: 59c915a18179ec8de48798a7713e7ee5
+  md5: 9cc2c953e7076eb6d7ab534f05d59219
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
