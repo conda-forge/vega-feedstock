@@ -1,1 +1,1 @@
-"${PREFIX}/bin/jupyter-nbextension" uninstall vega --py --sys-prefix > /dev/null 2>&1
+"${PREFIX}/bin/jupyter-nbextension" uninstall vega --py --sys-prefix >> "${PREFIX}/.messages.txt" 2>&1
