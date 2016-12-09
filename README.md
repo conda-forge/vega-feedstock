@@ -11,6 +11,18 @@ Summary: An IPython/Jupyter widget for Vega and Vega-Lite
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/vega-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/vega-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/vega-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/vega-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/vega-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/vega-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/vega/badges/version.svg)](https://anaconda.org/conda-forge/vega)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/vega/badges/downloads.svg)](https://anaconda.org/conda-forge/vega)
+
 Installing vega
 ===============
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `vega` available on your platform 
 ```
 conda search vega --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/vega-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/vega-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/vega-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/vega-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/vega-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/vega-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/vega/badges/version.svg)](https://anaconda.org/conda-forge/vega)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/vega/badges/downloads.svg)](https://anaconda.org/conda-forge/vega)
 
 
 Updating vega-feedstock
