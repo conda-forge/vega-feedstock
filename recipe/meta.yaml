@@ -10,20 +10,19 @@ source:
   md5: f0a60403f5d5384472c5153d53d4d211
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
   build:
     - python
     - setuptools
-    - jupyter
     - notebook >=4.2
 
   run:
     - python
     - ipython
-    - jupyter
+    - notebook >=4.2
 
 test:
   imports:
