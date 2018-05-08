@@ -5,24 +5,21 @@ package:
   version: {{ version }}
 
 source:
-  fn: vega-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/v/vega/vega-{{ version }}.tar.gz
-  md5: 32aba918df8e5173ca0f0f97073f9c0f
+  sha256: c0ceb2d18c965e7cb53afdde8482364a9c26084acb4447d08cc78fd4ad7c6884
 
 build:
-  number: 0
-  script: python setup.py install --single-version-externally-managed --record=record.txt
+  number: 1
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
-    - setuptools
-    - notebook >=4.2
-
+    - pip
   run:
     - python
-    - ipython
-    - notebook >=4.2
+    - jupyter
+    - pandas
 
 test:
   imports:
@@ -30,7 +27,8 @@ test:
 
 about:
   home: https://github.com/vega/ipyvega
-  license: BSD-3-Clause
+  license: BSD 3-Clause
+  license_file: LICENSE
   summary: 'An IPython/Jupyter widget for Vega and Vega-Lite'
 
 extra:
@@ -38,3 +36,4 @@ extra:
     - jakevdp
     - ellisonbg
     - domoritz
+    - ocefpaf
