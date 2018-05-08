@@ -1,4 +1,4 @@
-{% set version = "0.5.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: vega
@@ -7,7 +7,7 @@ package:
 source:
   fn: vega-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/v/vega/vega-{{ version }}.tar.gz
-  md5: ff5afd5d9236ed5b378d7f36af444a43
+  md5: 32aba918df8e5173ca0f0f97073f9c0f
 
 build:
   number: 0
