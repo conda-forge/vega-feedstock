@@ -14,14 +14,16 @@ Summary: An IPython/Jupyter widget for Vega and Vega-Lite
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/vega-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/vega-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/vega-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/vega-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/vega-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/vega-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/vega-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/vega-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/vega-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/vega-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/vega-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/vega-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/vega/badges/version.svg)](https://anaconda.org/conda-forge/vega)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/vega/badges/downloads.svg)](https://anaconda.org/conda-forge/vega)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-vega-green.svg)](https://anaconda.org/conda-forge/vega) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/vega.svg)](https://anaconda.org/conda-forge/vega) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/vega.svg)](https://anaconda.org/conda-forge/vega) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/vega.svg)](https://anaconda.org/conda-forge/vega) |
 
 Installing vega
 ===============
