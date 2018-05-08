@@ -1,1 +1,1 @@
-"${PREFIX}/bin/jupyter-nbextension" install vega --py --sys-prefix >> "${PREFIX}/.messages.txt" 2>&1
+"${PREFIX}/bin/jupyter-nbextension" enable vega --py --sys-prefix
