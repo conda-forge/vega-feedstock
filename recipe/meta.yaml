@@ -1,4 +1,4 @@
-{% set version = "1.0.1" %}
+{% set version = "1.1.1" %}
 
 package:
   name: vega
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/v/vega/vega-{{ version }}.tar.gz
-  sha256: c0ceb2d18c965e7cb53afdde8482364a9c26084acb4447d08cc78fd4ad7c6884
+  sha256: c6a9b84cd2b1a6771c71cb86bb7ac7fbb4128e001e478b1c702542b1121359eb
 
 build:
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
