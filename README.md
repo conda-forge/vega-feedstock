@@ -3,7 +3,7 @@ About vega
 
 Home: https://github.com/vega/ipyvega
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Feedstock license: BSD 3-Clause
 
