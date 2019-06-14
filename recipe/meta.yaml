@@ -1,4 +1,4 @@
-{% set version = "2.3.1" %}
+{% set version = "2.3.2" %}
 
 package:
   name: vega
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/v/vega/vega-{{ version }}.tar.gz
-  sha256: 637d5b94900e1e70518954580982c45c16aff1053eeee5c7fd0cad01b461a214
+  sha256: 61931c3f94e7dc1a3d53afd9377e0356d3d6e3d05e265da17c27096ba39b6938
 
 build:
   number: 0
