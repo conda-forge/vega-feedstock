@@ -1,4 +1,4 @@
-{% set version = "2.6.0" %}
+{% set version = "3.0.2" %}
 
 package:
   name: vega
@@ -6,20 +6,22 @@ package:
 
 source:
   url: https://pypi.io/packages/source/v/vega/vega-{{ version }}.tar.gz
-  sha256: c66354d6d164cc3d7254bcd129d8d861daf4a9e9cb8738b1724791777f6c29f0
+  sha256: 36abd5c4c308647e4c93f7602a5a14b27ecda1cb5517053764570af77bf359f8
 
 build:
   number: 0
+  skip: True  # [py<38]
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   host:
     - python
     - pip
+    - poetry >=0.12
   run:
     - python
-    - jupyter
-    - pandas
+    - jupyter >=1.0.0,<2.0.0
+    - pandas >=0.25.3,<0.26.0
 
 test:
   imports:
