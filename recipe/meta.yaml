@@ -10,6 +10,7 @@ source:
 
 build:
   number: 0
+  skip: True  # [py<38]
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
@@ -19,8 +20,8 @@ requirements:
     - poetry >=0.12
   run:
     - python
-    - jupyter
-    - pandas
+    - jupyter >=1.0.0,<2.0.0
+    - pandas >=0.25.3,<0.26.0
 
 test:
   imports:
