@@ -1,4 +1,4 @@
-{% set version = "3.0.2" %}
+{% set version = "3.1.0" %}
 
 package:
   name: vega
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/v/vega/vega-{{ version }}.tar.gz
-  sha256: 36abd5c4c308647e4c93f7602a5a14b27ecda1cb5517053764570af77bf359f8
+  sha256: 2e80a000c35e8c28f3853344f11129d55fc1316e8bd966af363533ec8fd174a0
 
 build:
   number: 0
-  skip: True  # [py<38]
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  skip: true  # [py<38]
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -31,7 +31,7 @@ about:
   home: https://github.com/vega/ipyvega
   license: BSD-3-Clause
   license_file: LICENSE
-  summary: 'An IPython/Jupyter widget for Vega and Vega-Lite'
+  summary: An IPython/Jupyter widget for Vega and Vega-Lite
 
 extra:
   recipe-maintainers:
