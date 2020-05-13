@@ -7,7 +7,7 @@ Package license: BSD-3-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: An IPython/Jupyter widget for Vega and Vega-Lite
+Summary: A Jupyter widget for Vega 5 and Vega-Lite 4
 
 
 
