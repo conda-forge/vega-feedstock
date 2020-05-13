@@ -10,14 +10,16 @@ source:
 
 build:
   number: 0
-  skip: true  # [py<36]
-  script: {{ PYTHON }} -m pip install . -vv
+  skip: True  # [py<36]
+  script:
+    - rm -f pyproject.toml
+    - {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - python
     - pip
-    - poetry >=0.12
+    # - poetry >=0.12
   run:
     - python
     - jupyter >=1.0.0,<2.0.0
@@ -31,7 +33,7 @@ about:
   home: https://github.com/vega/ipyvega
   license: BSD-3-Clause
   license_file: LICENSE
-  summary: An IPython/Jupyter widget for Vega and Vega-Lite
+  summary: A Jupyter widget for Vega 5 and Vega-Lite 4
 
 extra:
   recipe-maintainers:
