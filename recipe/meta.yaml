@@ -19,7 +19,7 @@ requirements:
   host:
     - python
     - pip
-    # - poetry >=0.12
+    - poetry >=0.12
   run:
     - python
     - jupyter >=1.0.0,<2.0.0
