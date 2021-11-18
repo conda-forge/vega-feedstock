@@ -9,7 +9,7 @@ source:
   sha256: 1c22877758cef97e81dbb665c83d31f7427bbc804a01503fa2845a35403c54ad
 
 build:
-  number: 0
+  number: 1
   skip: true  # [py<36]
   script:
     - rm -f pyproject.toml
