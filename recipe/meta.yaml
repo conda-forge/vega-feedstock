@@ -1,4 +1,4 @@
-{% set version = "3.6.0" %}
+{% set version = "4.0.0" %}
 
 package:
   name: vega
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/v/vega/vega-{{ version }}.tar.gz
-  sha256: 70efbb6276efffeba835438f42f0cd6638b4e25947501966f790b27f2f8dcbcd
+  sha256: bf5ffcb5a1dd3759fdfa0cbb2fe83fc00276c7d1706026b166211d16a2dcb756
 
 build:
-  number: 1
+  number: 0
   skip: true  # [py<36]
   script:
     - rm -f pyproject.toml
