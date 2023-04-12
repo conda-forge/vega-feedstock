@@ -1,4 +1,4 @@
-{% set version = "3.6.0" %}
+{% set version = "4.0.0" %}
 
 package:
   name: vega
@@ -6,14 +6,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/v/vega/vega-{{ version }}.tar.gz
-  sha256: 70efbb6276efffeba835438f42f0cd6638b4e25947501966f790b27f2f8dcbcd
+  sha256: bf5ffcb5a1dd3759fdfa0cbb2fe83fc00276c7d1706026b166211d16a2dcb756
 
 build:
-  number: 1
-  skip: true  # [py<36]
-  script:
-    - rm -f pyproject.toml
-    - {{ PYTHON }} -m pip install . -vv
+  number: 0
+  skip: true  # [py<37]
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   build:
@@ -22,11 +20,15 @@ requirements:
   host:
     - python
     - pip
-    - poetry >=0.12
+    - poetry >=1.4.2
   run:
     - python
     - jupyter >=1.0.0,<2.0.0
-    - pandas >=1.0.0,<2.0.0
+    - pandas >=1.5.0,<2.0.0
+    - ipytablewidgets >=0.3.0,<0.4.0
+    # extras
+    # - jupyterlab
+    # - ipywidgets
 
 test:
   imports:
