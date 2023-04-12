@@ -1,11 +1,11 @@
-About vega
-==========
+About vega-feedstock
+====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/vega-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/vega/ipyvega
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/vega-feedstock/blob/main/LICENSE.txt)
 
 Summary: A Jupyter widget for Vega 5 and Vega-Lite 4
 
