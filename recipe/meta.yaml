@@ -5,11 +5,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/v/vega/vega-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/v/vega/vega-{{ version }}.tar.gz
   sha256: f25ae6842bf0733a81a624110a43e39a262c24f1c416765a6ff033921fa2ee5b
 
 build:
-  number: 0
+  number: 1
   skip: true  # [py<37]
   script: {{ PYTHON }} -m pip install . -vv
 
